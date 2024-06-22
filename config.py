@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "20763653"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "f9f49a1daf7f6d1a7b91e51cfd2027a1")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7144902634:AAGdGmYp2pjtLU8_zmqsRE_6gNZVBCHC9VM")
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "bot")
 
@@ -25,17 +25,13 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "20971520")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "6761419887"))
 
-OWNER_ID = int(getenv("OWNER_ID", "1854384004"))
+OWNER_ID = int(getenv("OWNER_ID", "6761419887"))
 
 BOT_USERNAME = getenv("BOT_USERNAME" , "")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
-
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -46,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Xl444")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/vvyvv6")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/o225c")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/o225c")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -70,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 209715200000))
 
 
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "AQBkY4p3iuvhDpb7EVoy9S3sEPtIgwcXupTLrYMn5fEhKKA1k2oyLDpaN_E4ft8vl46lMnOWIXIIsmtsAXjJtEHGmpsv8ONZxVlWODtImC3i-0Kklwb6vZVH348oncJiAFF-FnPiz5qqo3fJBYjeUhn6oNJ4aRB6MO6xAw5HyXfPSVnzOiMDGGKAUaMJv4nzzy1_OxNySl3eVFPicTVC1qgovq9ohY2ueAAF2zklzu3fwCnMqy2SDHEr33uXyvP2PF_K-ioZsKNQvjM5FAakjnmO0032V84ocEgRsPXcNdwALXym5u_ZAvYMTac6TnwGRM-PK8jE2Oj9w3DGU5S6uVzWAAAAAZytwEkA")
+STRING1 = getenv("STRING_SESSION", "AgCcSLIOHl78eZCudMGMSpU2o257QmhY70GFYn_Si_1ORX3PM8KE_PT9miGG55JeKtYLM8GhnXgLwE8FhvPTbK-EkMNXvXlGKeUQ5GyOj8ZqCFOXDCvchSS65YNmO98pw4-vTkfcsHokgsRkv5qjHHF_iZY7Ofe4C1Cmx5CtQHupIo2gf_5SztQ-hzUHwCc9jLbnTlu9NxtPocoMKR5Un5aZ02STH88GRSgpKTSZCYCAlF_weUoewhEm1Ph0vfWGh6A3ApUofgm8Pb0loOwn6-Ng25ND-BwdbMIuWIe3MgnXKZ7rtQ_z96o_-sPslZKwXnPhRPsh21Dm8rzfXxi_DlHSAAAAAZMDFG8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
